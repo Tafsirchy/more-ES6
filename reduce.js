@@ -7,5 +7,5 @@ for (const number of numbers){
 }
 console.log(sum)
 
-const total = numbers.reduce((acc, curr) => acc + curr);
+const total = numbers.reduce((acc, curr) => acc + curr, 0);
 console.log(total)
